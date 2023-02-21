@@ -5,7 +5,7 @@ import { ThemeProvider } from '@mui/material';
 import { theme } from 'common/mui';
 import { ErrorBoundary } from 'components/errorBoundary';
 
-configure({ useProxies: 'ifavailable' }); // Or "never".
+configure({ useProxies: 'always' }); // Or "never".
 
 function App() {
   return (

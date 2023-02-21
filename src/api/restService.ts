@@ -1,7 +1,7 @@
 import axios, { AxiosError, AxiosResponse, AxiosInstance, AxiosRequestHeaders } from 'axios';
 import { ApiMessageError } from './serverErrorModel';
 
-const API_V1 = 'https://hugimserverwebapi.azurewebsites.net';
+const API_V1 = 'https://webservicehoogu.azurewebsites.net';
 
 class RestAPI {
   url: string;
